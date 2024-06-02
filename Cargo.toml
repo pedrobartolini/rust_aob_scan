@@ -1,0 +1,9 @@
+[package]
+name = "_rms_2026"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+winapi = { version = "0.3.9", features=["memoryapi", "processthreadsapi", "handleapi", "minwindef", "winnt", "winuser", "tlhelp32", "psapi"] }
+
